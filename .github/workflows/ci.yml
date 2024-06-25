@@ -1,6 +1,6 @@
 name: End-to-end tests
 on:
-    pull_request:
+    push:
         branches:
             - '*test*'
 jobs:
